@@ -1,0 +1,61 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Starter node proyect for any application in typescript",
+  "main": "./src/app.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build",
+    "start": "node dist/index.mjs",
+    "debug": "ts-node-dev --inspect --respawn --transpile-only src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launderex619/starter-node.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "starter"
+  ],
+  "author": "Carlos Carvajal Vazquez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/launderex619/starter-node/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/launderex619/starter-node#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/morgan": "^1.9.4",
+    "@types/swagger-jsdoc": "^6.0.1",
+    "@types/swagger-ui-express": "^4.1.3",
+    "@vitest/ui": "^0.28.3",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4",
+    "vavite": "^1.5.3",
+    "vite": "^4.0.4",
+    "vitest": "^0.28.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0"
+  }
+}
